@@ -29,6 +29,6 @@ model 使用YOLOv3的ssp版本。 pre-trained model 储存在 ./weights 中。
 
 ### train_batch
 下图为train batch的示例<br>
-![baidu](https://github.com/qiqihaer/YOLOv3-Codecraft-2019/train_batch0.jpg)
+![train_batch0](https://github.com/qiqihaer/YOLOv3-Codecraft-2019/train_batch0.jpg)
 
 
