@@ -7,9 +7,9 @@
 ```plain
 └── data
        ├── data   <-- image data
-       |   ├── image_2
-       |   ├── label_2
-       |   └── velodyne
+       |   ├── 000000000.png
+       |   ├── 000000001.png
+       |   └── ...
        |
        └── label.txt  <--- label data: charaters in each image
        |   
@@ -17,5 +17,18 @@
 
 ```
 
+./data/data 和 ./data/label.txt 为Codecraft2019决赛训练赛图片和标签，由华为提供。<br>
+./data/labelGT4000.csv 为手标数据
+
+### model 和 pre-trained model
+
+感谢[@ultralystics](https://github.com/ultralytics/yolov3)!!!<br>
+model 使用YOLOv3的ssp版本。 pre-trained model 储存在 ./weights 中。
+模型和预训练的权重均为[@ultralystics](https://github.com/ultralytics/yolov3)提供。
+
+
+### train_batch
+下图为train batch的示例<br>
+![baidu](https://github.com/qiqihaer/YOLOv3-Codecraft-2019/train_batch0.jpg)
 
 
