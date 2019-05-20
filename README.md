@@ -27,8 +27,6 @@ model 使用YOLOv3的ssp版本。 pre-trained model 储存在 ./weights 中。
 模型和预训练的权重均为[@ultralystics](https://github.com/ultralytics/yolov3)提供。
 
 
-### train_batch
-下图为train batch的示例<br>
-![train_batch0](https://github.com/qiqihaer/YOLOv3-Codecraft-2019/train_batch0.jpg)
-
+### 使用
+运行train.py
 
