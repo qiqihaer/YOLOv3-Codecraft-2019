@@ -6,20 +6,15 @@
 
 ```plain
 └── data
-       ├── data   <-- training data
-       |   ├── image_2
-       |   ├── label_2
-       |   └── velodyne
-       └── validation  <--- evaluation data
+       ├── data   <-- image data
        |   ├── image_2
        |   ├── label_2
        |   └── velodyne
        |
-       |__ train.txt
-       |
-       |__ val.txt
-       |
-       |__ trainval.txt
+       └── label.txt  <--- label data: charaters in each image
+       |   
+       |__ labelGT4000.csv  <--- boxes data: 9 boxes in each image
+
 ```
 
 
